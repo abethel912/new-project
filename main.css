@@ -24,7 +24,7 @@ body {
 margin: 0;
 display: grid;
 grid-template-columns: 1fr 4fr;
-grid-template-rows: 3fr 1fr 3fr;
+/* grid-template-rows: 3fr 1fr 3fr; */
 height: 100vh;
 font-family: Verdana;
 background-color: #eeee;
@@ -39,6 +39,7 @@ display: inline-block;
 
 ol {
 font-weight: bold;
+flex-direction: column;
 }
 
 h1 {
@@ -50,21 +51,21 @@ margin-top: 20px;
 }
 
 aside {
-background-color: slategray;
+background-color:yellow;
+overflow-y: scroll;
 }
 
 main {
-background-color: #226afa;
+background-color: blue ;
 }
 
 footer {
-background-color: #63d629;
+background-color: green;
 }
 
 .flex-ctr {
 display: flex;
 justify-content: center;
-align-items: center;
 }
 
 
