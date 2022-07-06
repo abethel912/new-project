@@ -52,6 +52,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 p {
 padding: 20px;
 font-weight:300;
+display:inline;
 }
 
 aside {
