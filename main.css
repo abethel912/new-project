@@ -42,6 +42,7 @@ ol {
 font-weight: bold;
 flex-direction: column;
 padding: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -50,9 +51,11 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
-padding: 20px;
-font-weight:300;
+padding: 20px 1px;
+font-weight:600;
 display:inline;
+margin-bottom: 5px;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 aside {
@@ -77,6 +80,7 @@ justify-content: center;
 nav,footer {
 grid-column: 1/3;
 }
+
 
 
 
