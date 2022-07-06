@@ -40,6 +40,7 @@ display: inline-block;
 ol {
 font-weight: bold;
 flex-direction: column;
+padding: 50px;
 }
 
 h1 {
@@ -51,16 +52,16 @@ margin-top: 20px;
 }
 
 aside {
-background-color:yellow;
+background-color: #FBB2B9;
 overflow-y: scroll;
 }
 
 main {
-background-color: blue ;
+background-color: rgb(245, 245, 245);
 }
 
 footer {
-background-color: green;
+background-color:#FEF6DF;
 }
 
 .flex-ctr {
