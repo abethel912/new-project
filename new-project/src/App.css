@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background: whitesmoke;
+  display: block;
 }
 
 img {
@@ -11,13 +12,24 @@ img {
 h1 {
   font-size: 24px;
   padding: 10px;
+  display:inline-block;
 }
+
+h2 {
+  display: inline-block;
+  margin: 30px;
+}
+
 
 .container {
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 p {
   font-weight:bold;
+  display:inline-block;
+  margin: 100px;
+  font-size: 14px;
+  text-align: center;
 }
