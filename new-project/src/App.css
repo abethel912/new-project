@@ -1,3 +1,12 @@
 body {
   text-align: center;
+  background: whitesmoke;
+}
+
+img {
+  width: 200px;
+}
+
+h1 {
+  font-size: 20px;
 }
