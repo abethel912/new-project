@@ -7,12 +7,17 @@ body {
 img {
   width: 200px;
   padding: 20px;
+  margin: auto;
+  display: inline-block;
+  margin-top: 10px;
+  
 }
 
 h1 {
   font-size: 24px;
   padding: 10px;
   display:inline-block;
+  color: red;
 }
 
 h2 {
@@ -20,7 +25,9 @@ h2 {
   margin: 30px;
 }
 
-
+.rank {
+  text-align: left;
+}
 .container {
   display:flex;
   flex-direction: row;
@@ -32,4 +39,9 @@ p {
   margin: 100px;
   font-size: 14px;
   text-align: center;
+}
+
+.conference {
+  width:500px;
+  height: 200px;
 }
