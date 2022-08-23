@@ -9,16 +9,15 @@ h1 {
   padding: 10px;
   display:inline-block;
   color: red;
+  text-align: center;
 }
 
 h2 {
   display: inline-block;
   margin: 30px;
+  text-align:center;
 }
 
-.rank {
-  
-}
 .container {
   display:flex;
   flex-direction: row;
@@ -34,10 +33,11 @@ p {
 }
 
 img {
-  width: 200px;
+  width: 300px;
   padding: 20px;
   margin: auto;
   margin-top: 10px;
+  
 }
 
 .conference {
@@ -46,6 +46,10 @@ img {
   margin-left: 20px;
   background-image: 'https://compote.slate.com/images/2eee76f1-f54e-4a48-95b0-9852efb1e0af.jpg?crop=668%2C376%2Cx0%2Cy0';
   background-size:cover;
+  border: solid black;
+  border-radius: 50%;
+  width:500px;
+  
 }
 
 .conference-container {
