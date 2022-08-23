@@ -37,12 +37,15 @@ const Conference = (props) => {
   }
 
   return (
-    <div
-      className="conference"
-      style={{ backgroundImage: `url(${background})` }}
-    >
+    <div className="conference-container">
+      {' '}
       <Team team={props.team} />
-      <Info team={props.team} />
+      <div
+        className="conference"
+        style={{ backgroundImage: `url(${background})` }}
+      >
+        <Info team={props.team} />
+      </div>
     </div>
   )
 }

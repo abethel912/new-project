@@ -1,17 +1,8 @@
 body {
   text-align: center;
   background: whitesmoke;
-  display: block;
 }
 
-img {
-  width: 200px;
-  padding: 20px;
-  margin: auto;
-  display: inline-block;
-  margin-top: 10px;
-  
-}
 
 h1 {
   font-size: 24px;
@@ -26,7 +17,7 @@ h2 {
 }
 
 .rank {
-  text-align: left;
+  
 }
 .container {
   display:flex;
@@ -42,7 +33,21 @@ p {
   text-align: center;
 }
 
+img {
+  width: 200px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 10px;
+}
+
 .conference {
-  width:500px;
-  height: 200px;
+  display: inline;
+  float: right;
+  margin-left: 20px;
+  background-image: 'https://compote.slate.com/images/2eee76f1-f54e-4a48-95b0-9852efb1e0af.jpg?crop=668%2C376%2Cx0%2Cy0';
+  background-size:cover;
+}
+
+.conference-container {
+  display:inline;
 }
