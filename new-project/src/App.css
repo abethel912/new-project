@@ -35,6 +35,7 @@ img {
   padding: 20px;
   margin: auto;
   margin-top: 10px;
+  border: 5px solid black;
 }
 
 .team-list-container {
@@ -57,3 +58,4 @@ img {
 .info {
   flex: 1;
 }
+
