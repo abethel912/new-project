@@ -46,3 +46,9 @@ img {
   display: flex;
   flex-direction: row;
 }
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
