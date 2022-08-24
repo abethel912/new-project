@@ -41,18 +41,3 @@ img {
   display: flex;
   flex-direction: column;
 }
-
-.conference-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.team-container {
-  display: flex;
-  flex-direction: column;
-  flex: 2;
-}
-
-.info {
-  flex: 1;
-}
