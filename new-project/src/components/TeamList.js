@@ -2,7 +2,7 @@ import Conference from './Conference'
 
 const TeamList = (props) => {
   return (
-    <div>
+    <div className="team-list-container">
       {props.teams.map((team) => (
         <div class="container">
           <Conference team={team} />

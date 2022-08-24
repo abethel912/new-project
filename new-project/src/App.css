@@ -3,11 +3,10 @@ body {
   background: whitesmoke;
 }
 
-
 h1 {
   font-size: 24px;
   padding: 10px;
-  display:inline-block;
+  display: inline-block;
   color: red;
   text-align: center;
 }
@@ -15,21 +14,19 @@ h1 {
 h2 {
   display: inline-block;
   margin: 30px;
-  text-align:center;
-}
-
-.container {
-  display:flex;
-  flex-direction: row;
-  align-items:center;
+  text-align: center;
 }
 
 p {
-  font-weight:bold;
-  display:inline-block;
+  font-weight: bold;
+  display: inline-block;
   margin: 100px;
   font-size: 14px;
   text-align: center;
+}
+
+.image-container {
+  flex: 2;
 }
 
 img {
@@ -37,21 +34,25 @@ img {
   padding: 20px;
   margin: auto;
   margin-top: 10px;
-  
 }
 
-.conference {
-  display: inline;
-  float: right;
-  margin-left: 20px;
-  background-image: 'https://compote.slate.com/images/2eee76f1-f54e-4a48-95b0-9852efb1e0af.jpg?crop=668%2C376%2Cx0%2Cy0';
-  background-size:cover;
-  border: solid black;
-  border-radius: 50%;
-  width:500px;
-  
+.team-list-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .conference-container {
-  display:inline;
+  display: flex;
+  flex-direction: row;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.info {
+  flex: 1;
 }
