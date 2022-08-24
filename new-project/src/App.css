@@ -52,3 +52,7 @@ img {
   flex-direction: column;
   flex: 2;
 }
+
+.info {
+  flex: 1;
+}
